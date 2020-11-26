@@ -16,5 +16,11 @@ git add .
 // 커밋에 코멘트 달기
 git commit -m "message"
 
-git push origin +master
+git push origin master
+
+------------------------------------------
+git init
+git remote add origin https://github.com/memoming/memoming_gitTest
+// 당겨오기
+git pull origin master
 
